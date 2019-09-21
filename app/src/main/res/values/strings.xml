@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">最爱电影</string>
+    <!-- NavigationBottom View-->
+    <string name="navigation_home">最新电影</string>
+    <string name="navigation_favorite">我的最爱</string>
+    <string name="navigation_recent">最近下载</string>
+    <!-- Navigation DrawLayout -->
+    <string name="headview_imageview">HeadView ImageView</string>
+    <string name="navi_head_title">James Huker</string>
+    <string name="navi_head_subtitle">Saw Better, Known Better</string>
+    <!-- Description -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Navigation menu-->
+    <string name="last_movie">最新电影</string>
+    <string name="last_china_movie">国内电影</string>
+    <string name="last_TV_china">华语影视</string>
+    <string name="last_TV_Korean">日韩影视</string>
+    <string name="last_TV_USA">欧美影视</string>
+    <string name="last_shows">综艺节目</string>
+    <string name="last_cartpn">日本动漫</string>
+    <string name="kind">分类</string>
+    <!-- Settings-->
+    <string name="others">其他</string>
+    <string name="settings">设置</string>
+    <string name="about_me">关于</string>
+    <string name="search">搜索结果</string>
+    <string name="late_text">正在加载请稍后⋯</string>
+    <string name="no_favo_movie">您还没有收藏任何电影，赶紧去收藏吧！😊</string>
+    <string name="no_download_movie">点击下载后，这里就会显示你的下载记录了！☝️</string>
+    <!-- Movie Detail Fragment -->
+    <string name="play">Play Video</string>
+    <string name="show_more">更多</string>
+    <string name="show_less">更少</string>
+    <string name="download">启动迅雷下载</string>
+    <string name="shortcut">影片截图</string>
+    <string name="gobacke">返回</string>
+    <!-- FloatBarAction-->
+    <string name="search_hint">搜索你喜欢的电影</string>
+    <string name="search_label">WMovie</string>
+    <!-- 补位词 -->
+    <string name="hint_country">国　　家 无</string>
+    <string name="hint_kind">类 别 无</string>
+    <string name="hint_point">IMDb评分 无</string>
+    <string name="hint_language">语 言 无</string>
+    <string name="hint_date">上映日期  无</string>
+    <string name="hint_time">片　　长  无</string>
+    <string name="hint_derector">导　　演 无</string>
+    <string name="hint_actor">主　　演 无</string>
+    <string name="hint_detail">简　　介 无</string>
+    <string name="hint_senglue">... ...</string>
+
+    <!-- 设置-->
+    <string name="show_photos">显示电影封面</string>
+    <string name="delete_cache">设置缓存保存时间</string>
+    <string-array name="delete_cache_time">
+        <item>1 天</item>
+        <item>3 天</item>
+        <item>5 天</item>
+        <item>从不保存</item>
+    </string-array>
+    <string-array name="delete_cache_time_values">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+    <string name="notification_sounds">开启加载完毕通知</string>
+    <string name="notification_list">通知声音列表</string>
+    <string name="notification_slient">静音</string>
+    <!-- 关于页面-->
+    <string name="about">关于我们</string>
+    <string name="about_text">关于本软件（和我）做以下几点声明（问答）：</string>
+    <string name="question_one">问：本软件收费么？</string>
+    <string name="answer_one">答：本软件完全免费，也不包含任何的无用功能，体量也小。虽然前期的开发过程中曾经考虑过插入广告获取收益的方式。但是总觉得自己的软件开发初期就一直没有设置收费这个想法，也顺便取消了插入广告的计划。(注：GooglePlay 市场版含有广告)写这个软件的初衷，是为了给喜欢看电影的GF一个省去网络搜索电影的麻烦——就是简化迅雷下载前期获取最新电影资源的途径。</string>
+    <string name="question_two">问：为什么不做成在线看电影的软件？</string>
+    <string name="answer_two">答：这个有多方面的原因，第一、因为已经有了很多的视频门户网站。第二、自由，下载的电影可以做到随时想看，随时打开。第三、不喜欢删减，自打去年上映的电影《异形》被广电删减成娱乐片后，就对在线看电影再也没兴趣了。第四、技术原因，开发一个在线看的电影软件，除非接入别人的私人服务器（当然这是不可能的）才有获得电影资源的权限。第五、版权问题，现在的国内的发行商对版权所有的声明越来越强，所以侵权也是一个不得不考虑的因素。另外自己搭建服务器，则维护使用服务器的费用也会是一个不小的开支。</string>
+    <string name="question_three">问：我可以怎样使用本软件？</string>
+    <string name="answer_three">答：你可以随意的使用，生吞活剥、小炒油炸都随意，我只想用自己的微弱力量，给你的生活多点乐趣。</string>
+    <string name="question_four">问：这个软件安全么？</string>
+    <string name="answer_four">答：智能手机时代，尤其是Android 7.0 以后，判断一个软件安全与否？就是看它获取的权限和它功能是否相符。首先本软件是一个需要从网络获取数据资源的软件，所以联网权限是必须的。其次下载的数据资源部分需要储存在设备中，这个需要获取手机内存的使用权限。这是本软件仅需的两个权限。另外，本软件打算后期开源，到时候你也可以直接查看源代码。</string>
+    <string name="question_five">问：为什么一定非要使用迅雷手机版软件才可以下载？</string>
+    <string name="answer_five">答：还是前面提到的，这个软件只是搬运工，省去的就是你想看电影找资源的苦恼。另外，迅雷的资源可以说是国内最丰富的资源库了，如果想要获取它的资源肯定要使用它的客户端产品。（虽然，网上有实现利用迅雷离线下载的方式实现了抛弃迅雷软件的做法。但是语言的隔阂加上时间和能力的有限，所以并没有尝试去添加这个功能）</string>
+    <string name="question_six">问：这个软件将来会怎么发展？</string>
+    <string name="answer_six">答：为了写这个软件花费了自己不少的时间和精力，从开始构思到现在两个多月，也忘记了自己熬过多少个夜晚，写了多少个测试版本，GF帮忙测试了多少个版本。如果你有机会看到或者使用了本软件，当然首先是感谢你的信任。如果它能给你的生活带去一些欢乐，我会更感觉到欣慰。毕竟这就是它存在的原因。后期这个软件不打算再添加什么新功能了，一方面自己还有别的方面事情需要处理，另一方面，作为我开发的第一款软件，它的设计功能都实现了。虽然不是很完美，但是依旧算是很稳健。所以接下来可能会就专注于一些很严重的bug的修复。当然你有什么好的想法也非常欢迎你的反馈。</string>
+    <string name="question_seven">问：有没有苹果iOS平台的计划？</string>
+    <string name="answer_seven">答：这个只能说暂时还没有，iOS开发对我来说又是个全新的东西，意味着重新再来一遍。伤不起！</string>
+
+    <!--Admod -->
+    <string name="banner_ad_unit_id">ca-app-pub-1459318169701878/4520814035</string>
+    <string name="app_ad_id">ca-app-pub-1459318169701878~6479952525</string>
+    <string name="reward_ad_unit_id">ca-app-pub-1459318169701878/5046493499</string>
+</resources>

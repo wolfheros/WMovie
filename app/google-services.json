@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1083145353362",
+    "firebase_url": "https://wmovie-bb98d.firebaseio.com",
+    "project_id": "wmovie-bb98d",
+    "storage_bucket": "wmovie-bb98d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083145353362:android:07b8ca0ad33a7f2d",
+        "android_client_info": {
+          "package_name": "life.wolfheros.wmovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083145353362-82sea6juns92i6j906ed2cgdeao0h8q2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "life.wolfheros.wmovie",
+            "certificate_hash": "8aec9b0df6bf550910743f570f9725f900302291"
+          }
+        },
+        {
+          "client_id": "1083145353362-di3mg27rhei2rkkcdln42nh18ei37o5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1ssmfUB8avXuAwv9Vm0dggoW2OV3rS0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083145353362-di3mg27rhei2rkkcdln42nh18ei37o5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

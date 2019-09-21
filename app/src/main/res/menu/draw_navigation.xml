@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="@string/kind">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item android:id="@+id/last_movie"
+                      android:icon="@drawable/ic_movie_filter_black_24dp"
+                      android:title="@string/last_movie"/>
+                <item android:id="@+id/last_china_movie"
+                      android:icon="@drawable/ic_movie_others_black_24dp"
+                      android:title="@string/last_china_movie"/>
+               <!-- <item android:id="@+id/last_tv_china"
+                      android:icon="@drawable/ic_menu_slideshow"
+                      android:title="@string/last_TV_china"/>-->
+                <item android:id="@+id/last_tv_korean"
+                      android:icon="@drawable/ic_movie_google_black_24"
+                      android:title="@string/last_TV_Korean"/>
+                <item android:id="@+id/last_tv_usa"
+                      android:icon="@drawable/ic_menu_slideshow"
+                      android:title="@string/last_TV_USA"/>
+               <!-- <item android:id="@+id/last_shows"
+                      android:icon="@drawable/ic_menu_slideshow"
+                      android:title="@string/last_shows"/>
+                <item android:id="@+id/last_carton"
+                      android:icon="@drawable/ic_menu_slideshow"
+                      android:title="@string/last_cartpn"/>-->
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+        <menu>
+            <item android:id="@+id/settings"
+                  android:icon="@drawable/ic_baseline_settings_20px"
+                  android:title="@string/settings"/>
+            <item android:id="@+id/about_me"
+                  android:icon="@drawable/ic_round_about_24px"
+                  android:title="@string/about_me"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardMaxElevation="0dp"
+    android:id="@+id/movie_cardview"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="2dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+            <ImageView
+            android:id="@+id/movie_image"
+            android:padding="10dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="107dp"
+            android:layout_height="150dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="8dp"
+                >
+                <TextView
+                    android:id="@+id/movie_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:textSize="24sp"/>
+
+                <TextView
+                    android:id="@+id/movie_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:singleLine="true"
+                    android:hint="IMDb评分    无"
+                    android:paddingBottom="4dp"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/movie_kind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:hint="类　　  别    无"
+                    android:paddingLeft="8dp"
+                    android:paddingBottom="4dp"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/movie_actor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:hint="主　　  演    无"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    />
+        </LinearLayout>
+
+    </LinearLayout>
+
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/movie_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/movie_text_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:textSize="14sp"/>
+        </LinearLayout>-->
+    </LinearLayout>
+</android.support.v7.widget.CardView>
